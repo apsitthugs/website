@@ -36,10 +36,10 @@
 				<h1>Good Morning</h1>
 				<h5 style="margin-bottom: 20px">That’s the domain name you’ll use to send emails from</h5>
 
-				<form role="form" action="checklogin.php" method="post" class="login-form">
+				<form role="form" action="domainAuth.php" method="post" class="login-form">
 					<div class="form-group">
 		            	
-		            	<input type="text" name="domain" placeholder="example.com" class="form-password form-control" id="form-password">
+		            	<input type="text" name="domain" placeholder="example.com" class="form-password form-control" id="form-password"required>
 		            </div>
 		            <button type="submit" class="btn btn-primary" style="background-color: #C91F37">Add Domain</button>
 		        </form>
