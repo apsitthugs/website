@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+
+	session_start();
+	$domain = $_POST['domain'];
+
+?>
+
 	<head>
 		
 		<meta charset="utf-8">
@@ -177,7 +184,7 @@
 			</div>
 			
 			<center>
-				<form method="post" action="sending.php">
+				<form method="post" action="script.php">
 					<button type="submit" class="btn btn-primary" style="background-color: #C91F37;width: 30%;height: 50px; font-size: 18px;letter-spacing: 0.5px;">Next</button>
 				</form>
 			</center>
