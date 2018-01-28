@@ -73,7 +73,7 @@
 							<span style="color: #407A52"><b>Active</b></span><br>Test mail to get started
 						</div>
 						<div class="col-lg-4" style="padding: 5px">
-							<a href="">View Report</a>
+							<a href="report.php">View Report</a>
 						</div>
 					</div>
 				</div>
